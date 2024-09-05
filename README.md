@@ -1,19 +1,5 @@
-<h1 align="center">Hi 👋, I'm Mehdi Sameni</h1>
+<h1 align="center">I'm Mehdi Sameni</h1>
 <h3 align="center">A passionate Backend developer from Iran</h3>
-
-# 💫 About Me:
-- 🔭 I’m currently working on **Python + Qt6**
-
-- 🌱 I’m currently learning **Machine Learning**
-
-- 👯 I’m looking to collaborate on **Python + Qt6**
-
-- 🤝 I’m looking for help with **Python + Qt6**
-
-- 💬 Ask me about **Python-Pyqt-Django**
-
-- 📫 How to reach me **Mehdi.Sameny@Gmail.com**
-
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Mehdisameny) 
@@ -61,32 +47,12 @@ class MehdiSameny(Human):
         self.family = 'Sameni'
         self.age = 37
         self.university = 'Iran, Tehran, Islamic Repoblic'
-
-    def run(self):
-        while True:
-            x, r = self.calculateXR(1)
-            arc = self.arc1
-            if arc.direction:
-              spanAngle = arc.startAngle-arc.fixedStartAngle+arc.spanAngle
-            else:
-              spanAngle = 360-(arc.startAngle-arc.fixedStartAngle)
-            if spanAngle < 1/16:
-              spanAngle = 1/16
-            self.painter.drawArc(int(x), int(x), int(r), int(r),
-                          -(arc.spacer+arc.startAngle)*16, int(-spanAngle*16))
-            
-            x, r = self.calculateXR(5)
-            self.painter.drawArc(int(x), int(x), int(r), int(r),
-                          -(arc.spacer+arc.startAngle)*16, int((360-spanAngle)*16))
 ```
 
 ### 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=MehdiSameny&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=MehdiSameny&theme=default&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MehdiSameny&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=MehdiSameny&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=MehdiSameny&limit=5&theme=dracula&combine_all_yearly_contributions=true)
