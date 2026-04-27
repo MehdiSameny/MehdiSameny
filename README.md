@@ -20,7 +20,7 @@ class MehdiSameny(Human):
         super().__init__(self)
         self.fname = 'Mehdi'
         self.family = 'Sameni'
-        self.age = 37
+        self.age = 1986/01/01
         self.university = 'Iran, Tehran, Islamic Repoblic'
 ```
 
